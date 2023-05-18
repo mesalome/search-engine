@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Image Search</title>
+</head>
+<body>
+    <div class = "other-pages">
+        <a href = "./index.html">Google Search</a>
+    </div>
+
+    <div id = "google-logo" class="centered_content">
+        <img src = "./assets/googlelogo_color_272x92dp.png" alt="google logo"/>
+        <h1 id="images">Images</h1>
+    </div>
+
+    <div id = "question-form" class="centered_content"> 
+        <form action="https://www.google.com/search" >
+            <input type="text" name="q">
+            <input type="hidden" name="tbm" value="isch"/>
+            <div class="submit-button">
+            <input type="submit" value="Google Search"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+.other-pages{
+    text-align: end;
+    font-size: 20px;
+}
+.other-pages>a{
+    padding: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+.centered_content{
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+#google-logo{
+    padding-top: 10%;
+}
+#google-logo>img{
+    max-width: 300px;
+}
+
+#images{
+    margin-left: 15rem;
+    margin-top: -1.8rem;
+    color: cornflowerblue;
+    font-size: inherit;
+}
+
+input[name="q"]{
+    width: 33rem;
+    padding: 12px;
+    border-radius: 25px;
+    border: solid lightgrey;
+}
+
+.submit-button{
+    margin: 12px;
+}
+input[type="submit"]:hover{
+    border: 1px solid grey
+}
+
+.submit-button>input{
+    padding: 10px 15px;
+    border: 0;
+    color: revert;
+    border-radius: 7px;
+}
+
+img[alt="google logo clickable"]{
+    width: 100px;
+}
+.title-texts{
+    margin: 2.5rem 0rem 1.5rem 2.5rem;
+    font-family: sans-serif;
+}
+#advanced-search-text{
+    color: #d93025;
+    font-size: 20px;
+    font-weight: 400;
+}
+#find-pages-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+hr{
+    border: 1px solid #f2f2f2;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 1rem 0;
+}
+
+.advance-input{
+    height: 1.5rem;
+    width: 20rem;
+    border: 1px solid lightgrey;
+    border-top-color: grey;
+}
+input[name="as_q"]{
+    margin-left: 7rem;
+}
+input[name="as_epq"]{
+    margin-left: 2.9rem;
+}
+input[name="as_oq"]{
+    margin-left: 5.4rem;
+}
+
+input[name="as_eq"]{
+    margin-left: 4.9rem;
+}
+input[name="as_nlo"]{
+    width: 9.2rem;
+    margin-left: 4.3rem;
+}
+
+input[name="as_nhi"]{
+    width: 9.2rem;
+}
+
+#advance-search-submit{
+    background-color: #4d90fe;
+    color:#ffffff;
+    font-family: Arial, sans-serif;
+    size: 14px;
+    padding: 0.5rem;
+    border: none;
+    margin-left: 28.6rem;
+    margin-bottom: 3rem;
+}
+#advance-search-submit:hover{
+    background-color: #3f85f4;
+}
+
+@media (max-width: 40rem){
+    input[name="q"]{
+        width: 25rem;
+        padding: 12px;
+        border-radius: 25px;
+        border: solid lightgrey;
+    }
+
+    input[name="as_q"]{
+        display: block;
+        margin-left: 0rem;
+    }
+    input[name="as_epq"]{
+        display: block;
+        margin-left: 0rem;
+    }
+    input[name="as_oq"]{
+        display: block;
+        margin-left: 0rem;
+    }
+    
+    input[name="as_eq"]{
+        display: block;
+        margin-left: 0rem;
+    }
+    span{
+        display: block
+    }
+    input[name="as_nlo"]{
+        width: 9.2rem;
+        margin-left: 0rem;
+    }
+    
+    input[name="as_nhi"]{
+        width: 9.2rem;
+    }
+
+    #advance-search-submit{
+        margin-left: 15rem;
+
+    }
+}
